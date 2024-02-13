@@ -1,15 +1,15 @@
 {
-  "name": "homebridge-dyson-pure-cool",
-  "displayName": "Dyson",
-  "version": "2.7.9",
-  "description": "Plugin for using the Dyson Pure Cool fans in homebridge.",
+  "name": "homebridge-dyson-heurist",
+  "displayName": "Dyson Heurist",
+  "version": "1.0.2",
+  "description": "Plugin for using the Dyson Devices.",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin",
     "homebridge",
-    "homebridge-dyson-pure-cool",
+    "homebridge-dyson-robot",
     "dyson",
-    "pure cool"
+    "heurist"
   ],
   "scripts": {
     "test": "tap --no-coverage test/*.js"

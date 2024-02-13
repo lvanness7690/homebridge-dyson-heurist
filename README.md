@@ -9,44 +9,8 @@ To obtain the credentials, please follow the instructions below.
 
 This project is a homebridge plugin for the Dyson air purifiers. Supported devices are:
 
-- Dyson Pure Humidify+Cool (PH01)
-- Dyson Pure Humidify+Cool Cryptomic (PH02)
-- Dyson Pure Humidify+Cool (PH03)
-- Dyson Pure Humidify+Cool Formaldehyde (PH04)
-- Dyson Pure Cool Tower (TP04, TP07, TP09)
-- Dyson Pure Cool Tower Cryptomic (TP06)
-- Dyson Pure Cool Desk (DP04)
-- Dyson Pure Hot+Cool (HP04)
-- Dyson Pure Hot+Cool Cryptomic (HP06)
-- Dyson Pure Hot+Cool Formaldehyde (HP07)
-- Dyson Pure Hot+Cool Formaldehyde (HP09)
-- Dyson Pure Cool Link Tower (TP02)
-- Dyson Pure Cool Link Desk (DP01)
-- Dyson Pure Hot+Cool Link (HP02)
-- Dyson Purifier Big+Quiet Formaldehyde (BP02, BP03, BP04, BP06)
-
-All your devices are exposed as air purifiers in HomeKit, with support (also in Apple Home app) for:
-- On/off
-- Auto/manual
-- Fan speed
-- Oscillation on/off
-- Relative humidity
-- Current temperature (in Apple Home app only supported as separate sensor)
-- Air quality (incl. PM2.5, PM10, VOC and NO2 data for devices other than DP01, TP02 and HP02)
-
-For heating devices, a thermostat is also exposes to HomeKit with support for:
-- On/Off
-- Target temperature
-
-For humidifier devices, a humidifier is also exposes to HomeKit with support for:
-- On/Off
-- Auto/manual
-- Target relative humidity
-
-Optionally, the following switches are exposed:
-- Night mode (on/off)
-- Jet Focus (on/off; DP01, TP02, HP02, BP02, BP03, BP04 and BP06 are not supported)
-- Continuous Monitoring (on/off)
+- Dyson Eye 360 (ROB01)
+- Dyson Heurist (RB02)
 
 The plugin is optimized for usage of the Home app in iOS 13, e.g. the night mode and jet focus switches are combined in a separate settings accessory. This can be changed in the config.
 
