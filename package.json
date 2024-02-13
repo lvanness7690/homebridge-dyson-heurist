@@ -1,7 +1,7 @@
 {
   "name": "homebridge-dyson-heurist",
   "displayName": "Dyson Heurist",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Plugin for using the Dyson Devices.",
   "license": "MIT",
   "keywords": [
