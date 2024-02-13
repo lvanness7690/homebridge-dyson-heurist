@@ -5,7 +5,7 @@ const crypto = require('crypto');
 
 /**
  * Represents the server for the credentials generator website.
- * @param platform The DysonVacuumPlatform instance.
+ * @param platform The DysonPureCoolPlatform instance.
  */
 function CredentialsGeneratorWebsite(platform) {
     const website = this;
@@ -102,7 +102,7 @@ CredentialsGeneratorWebsite.prototype.handleInitial = function (res) {
     res.write(
         '<html> \
             <head> \
-                <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
             </head> \
             <body> \
             <form method="POST" action="/step1" enctype="application/x-www-form-urlencoded" style="max-width: 600px; margin: 100px auto;"> \
@@ -150,7 +150,7 @@ CredentialsGeneratorWebsite.prototype.handleInitial = function (res) {
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -177,7 +177,7 @@ CredentialsGeneratorWebsite.prototype.handleInitialCn = function (res) {
     res.write(
         '<html> \
             <head> \
-                <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
             </head> \
             <body> \
             <form method="POST" action="/step1-cn" enctype="application/x-www-form-urlencoded" style="max-width: 600px; margin: 100px auto;"> \
@@ -236,7 +236,7 @@ CredentialsGeneratorWebsite.prototype.step1 = function (req, formData, res) {
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -281,7 +281,7 @@ CredentialsGeneratorWebsite.prototype.step1 = function (req, formData, res) {
                     res.write(
                         '<html> \
                             <head> \
-                                <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                                <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                             </head> \
                             <body> \
                             <h1>' + errorMessage + '</h1> \
@@ -296,7 +296,7 @@ CredentialsGeneratorWebsite.prototype.step1 = function (req, formData, res) {
                 res.write(
                     '<html> \
                         <head> \
-                            <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                            <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                         </head> \
                         <body> \
                         <form method="POST" action="/step2-2fa" enctype="application/x-www-form-urlencoded" style="max-width: 600px; margin: 100px auto;"> \
@@ -326,7 +326,7 @@ CredentialsGeneratorWebsite.prototype.step1 = function (req, formData, res) {
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <form method="POST" action="/step2-no2fa" enctype="application/x-www-form-urlencoded" style="max-width: 600px; margin: 100px auto;"> \
@@ -388,7 +388,7 @@ CredentialsGeneratorWebsite.prototype.step1 = function (req, formData, res) {
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -403,7 +403,7 @@ CredentialsGeneratorWebsite.prototype.step1 = function (req, formData, res) {
         res.write(
             '<html> \
                 <head> \
-                    <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                    <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                 </head> \
                 <body> \
                 <form method="POST" action="/step2-cn" enctype="application/x-www-form-urlencoded" style="max-width: 600px; margin: 100px auto;"> \
@@ -470,7 +470,7 @@ CredentialsGeneratorWebsite.prototype.step22fa = function (req, formData, res) {
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -532,7 +532,7 @@ CredentialsGeneratorWebsite.prototype.step22fa = function (req, formData, res) {
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -591,7 +591,7 @@ CredentialsGeneratorWebsite.prototype.step2No2fa = function (req, formData, res)
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -651,7 +651,7 @@ CredentialsGeneratorWebsite.prototype.getDevices = function (authorizationHeader
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -696,7 +696,7 @@ CredentialsGeneratorWebsite.prototype.getDevices = function (authorizationHeader
         res.write(
             '<html> \
                 <head> \
-                    <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                    <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                 </head> \
                 <body> \
                 <form style="max-width: 600px; margin: 100px auto;"> \
@@ -753,7 +753,7 @@ CredentialsGeneratorWebsite.prototype.getDevices = function (authorizationHeader
             res.write(
                 '<html> \
                     <head> \
-                        <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                        <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                     </head> \
                     <body> \
                     <h1>' + errorMessage + '</h1> \
@@ -798,7 +798,7 @@ CredentialsGeneratorWebsite.prototype.getDevices = function (authorizationHeader
         res.write(
             '<html> \
                 <head> \
-                    <title>Dyson Vacuum Plugin - Credentials Generator</title> \
+                    <title>Dyson Pure Cool Plugin - Credentials Generator</title> \
                 </head> \
                 <body> \
                 <form style="max-width: 600px; margin: 100px auto;"> \
